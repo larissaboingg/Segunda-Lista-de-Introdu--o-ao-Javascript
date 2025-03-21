@@ -50,3 +50,18 @@ function verificarTamanho (tamanho){
 verificarTamanho (tamanho)
 
 //Atividade 16
+const fruta = [banana,maca,caqui,melancia,kiwi];
+
+//Atividade 20 
+let palavra = prompt ("Digite uma palavra:")
+function contarVogais (palavra) {
+    const vogais = "aeiouAEIOU";
+    let contador = 0;
+    for (let letra of palavra){
+        if(vogais.includes(letra)){
+            contador++;
+        }
+    }
+}
+console.log(contador);
+contarVogais (palavra)
