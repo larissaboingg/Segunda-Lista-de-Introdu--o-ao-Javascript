@@ -1,4 +1,4 @@
-/*
+
 //Atividade 11
 let numero = prompt ("Digite um número");
 function verificarSinal (numero) {
@@ -29,15 +29,11 @@ while (x <= 100) {
 console.log("A soma dos números de 1 até 100 é de: " + somatorio)
 
 //Atividade 14
-let palavra = prompt ("Escreva uma palavra:");
-function substituirPalavra (palavra) {
-    if (palavra==="vermelho") {
-        console.log ("Azul")
-    }else {
-        console.log ("Vemelho")
-    }
+function substituirPalavra (text) {
+    console.log(text.replace(/azul/g,"vermelho"))
 }
-substituirPalavra (palavra)
+let texto = prompt ("Escreva uma palavra:");
+substituirPalavra (texto)
 
 //Atividade 15 
 let tamanho = prompt ("Escreva uma frase:");
@@ -52,13 +48,5 @@ function verificarTamanho (tamanho){
     }
 };
 verificarTamanho (tamanho)
-*/
+
 //Atividade 16
-let x = 1;
-hile (x <= 5) {
-    let fruta = prompt ("Escreva uma fruta:");
-    x = x + 1;
-    if (x==3) {
-        console.log(fruta)
-    }
-}
